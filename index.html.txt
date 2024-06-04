@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Sum App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word Sum App</h1>
+    <input type="text" id="inputText" placeholder="Enter a word">
+    <button onclick="calculateSum()">Calculate</button>
+    <div id="result">Result: </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
